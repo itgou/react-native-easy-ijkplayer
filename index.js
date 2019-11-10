@@ -62,7 +62,7 @@ class IJKPlayerView extends Component {
         console.log('play')
         UIManager.dispatchViewManagerCommand(
             findNodeHandle(this.ref),
-            UIManager.getViewManagerConfig('IJKPlayer').Commands.play,
+            UIManager.getViewManagerConfig('RNEasyIjkplayerView').Commands.play,
             null,
         )
     }
@@ -71,7 +71,7 @@ class IJKPlayerView extends Component {
         console.log('pause')
         UIManager.dispatchViewManagerCommand(
             findNodeHandle(this.ref),
-            UIManager.getViewManagerConfig('IJKPlayer').Commands.pause,
+            UIManager.getViewManagerConfig('RNEasyIjkplayerView').Commands.pause,
             null,
         )
     }
@@ -80,7 +80,7 @@ class IJKPlayerView extends Component {
         console.log('pause')
         UIManager.dispatchViewManagerCommand(
             findNodeHandle(this.ref),
-            UIManager.getViewManagerConfig('IJKPlayer').Commands.stop,
+            UIManager.getViewManagerConfig('RNEasyIjkplayerView').Commands.stop,
             null,
         )
     }
@@ -88,7 +88,7 @@ class IJKPlayerView extends Component {
     seekTo = (time) => {
         UIManager.dispatchViewManagerCommand(
             findNodeHandle(this.ref),
-            UIManager.getViewManagerConfig('IJKPlayer').Commands.seekTo,
+            UIManager.getViewManagerConfig('RNEasyIjkplayerView').Commands.seekTo,
             [time],
         )
     }
