@@ -19,7 +19,7 @@ public class RNEasyIjkplayerModule extends ReactContextBaseJavaModule {
     @Nonnull
     @Override
     public String getName() {
-        return "RNEasyIjkplayer";
+        return "RNEasyIjkplayerView";
     }
 
     /**
