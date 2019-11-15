@@ -34,6 +34,57 @@
       compile project(':react-native-easy-ijkplayer')
   	```
 
+### Demo Reposity: https://github.com/itgou/react-native-easy-ijkplayer-demo
+
+### Extra Setting in Android
+1. For resolving Error: minSdkVersion 16 cannot be smaller than version 21 declared in library [:react-native-easy-ijkplayer]
+
+   Open up `android/build.gradle`  
+    ```
+    buildscript {
+        ext {
+            buildToolsVersion = "28.0.3"
+    -        minSdkVersion = 16
+    +        minSdkVersion = 21 
+            compileSdkVersion = 28
+            targetSdkVersion = 28
+            supportLibVersion = "28.0.0"
+
+    ```
+2. For resolving Bug about  android:allowBackup
+
+    Open up `android/app/src/main/AndroidManifest.xml`
+    ```
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    +        xmlns:tools="http://schemas.android.com/tools"
+         package="com.reactnativeeasyiijkplayerdemo">
+ 
+     <uses-permission android:name="android.permission.INTERNET" />
+       android:icon="@mipmap/ic_launcher"
+       android:roundIcon="@mipmap/ic_launcher_round"
+       android:allowBackup="false"
+    +  tools:replace="android:allowBackup"
+       android:theme="@style/AppTheme">
+       <activity
+         android:name=".MainActivity"
+
+    ```
+3. For resolving Error: java.lang.UnsatisfiedLinkError:......couldn't find libffmpeg.so
+
+    Open up `/android/app/build.gradle`
+    ```
+    android {
+         targetSdkVersion rootProject.ext.targetSdkVersion
+         versionCode 1
+         versionName "1.0"
+    +    ndk{
+    +       abiFilters "armeabi-v7a", "x86"
+    +    }
+     }
+     splits {
+         abi {
+
+    ```
 
 ## Usage
 ```javascript
