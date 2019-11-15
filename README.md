@@ -86,6 +86,13 @@
 
     ```
 
+### Extra Setting in IOS
+  IJKMediaFramework.framework is bigger than 100M, can not push to github, you need add it yourself.
+    1. download IJKMediaFramework.framework from website, or build it yourself
+    2. use xCode to open node_modules/react-native-easy-ijkplayer/ios/RNEasyIjkplayer.xcodeproj
+    3. right click the RNEasyIjkplayer, select `Add Files to RNEasyIjkplayer` to add your IJKMediaFramework.framework  
+    4. use react-native run-ios to start 
+    
 ## Usage
 ```javascript
 import RNEasyIjkplayer from 'react-native-easy-ijkplayer';
@@ -193,4 +200,3 @@ export default class App extends Component {
 }
 
 ```
-  
