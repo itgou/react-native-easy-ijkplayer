@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNEasyIjkplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNEasyIjkplayer.m */; };
+		2A14909F2378C58000B61333 /* RNEasyIjkplayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14909E2378C58000B61333 /* RNEasyIjkplayerView.m */; };
+		2A1490A22378C6AB00B61333 /* RNEasyIjkplayerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1490A12378C6AB00B61333 /* RNEasyIjkplayerViewManager.m */; };
+		2ACE694C237D1E4B00F6466F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE694B237D1E4B00F6466F /* AudioToolbox.framework */; };
+		2ACE694E237D1E5100F6466F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE694D237D1E5100F6466F /* AVFoundation.framework */; };
+		2ACE6966237D295600F6466F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6965237D295600F6466F /* VideoToolbox.framework */; };
+		2ACE6968237D296200F6466F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6967237D296200F6466F /* UIKit.framework */; };
+		2ACE696A237D297200F6466F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6969237D297200F6466F /* QuartzCore.framework */; };
+		2ACE696C237D297A00F6466F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE696B237D297A00F6466F /* OpenGLES.framework */; };
+		2ACE696E237D298000F6466F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE696D237D298000F6466F /* MobileCoreServices.framework */; };
+		2ACE6970237D298700F6466F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE696F237D298700F6466F /* MediaPlayer.framework */; };
+		2ACE6972237D298E00F6466F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6971237D298E00F6466F /* CoreVideo.framework */; };
+		2ACE6974237D299600F6466F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6973237D299500F6466F /* CoreMedia.framework */; };
+		2ACE6976237D299D00F6466F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6975237D299D00F6466F /* CoreGraphics.framework */; };
+		2ACE6978237D29C400F6466F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6977237D29C400F6466F /* libbz2.tbd */; };
+		2ACE697A237D29CA00F6466F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6979237D29CA00F6466F /* libz.tbd */; };
+		2ACE698A237D377800F6466F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE6989237D377800F6466F /* IJKMediaFramework.framework */; };
+		2ACE698C237D378800F6466F /* IJKMediaFramework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACE698B237D378800F6466F /* IJKMediaFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +40,25 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNEasyIjkplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNEasyIjkplayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNEasyIjkplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEasyIjkplayer.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNEasyIjkplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEasyIjkplayer.m; sourceTree = "<group>"; };
+		2A14909D2378C58000B61333 /* RNEasyIjkplayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNEasyIjkplayerView.h; sourceTree = "<group>"; };
+		2A14909E2378C58000B61333 /* RNEasyIjkplayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEasyIjkplayerView.m; sourceTree = "<group>"; };
+		2A1490A02378C6AB00B61333 /* RNEasyIjkplayerViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNEasyIjkplayerViewManager.h; sourceTree = "<group>"; };
+		2A1490A12378C6AB00B61333 /* RNEasyIjkplayerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEasyIjkplayerViewManager.m; sourceTree = "<group>"; };
+		2ACE694B237D1E4B00F6466F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2ACE694D237D1E5100F6466F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2ACE6965237D295600F6466F /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2ACE6967237D296200F6466F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2ACE6969237D297200F6466F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2ACE696B237D297A00F6466F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2ACE696D237D298000F6466F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2ACE696F237D298700F6466F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2ACE6971237D298E00F6466F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2ACE6973237D299500F6466F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2ACE6975237D299D00F6466F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2ACE6977237D29C400F6466F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		2ACE6979237D29CA00F6466F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2ACE6989237D377800F6466F /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		2ACE698B237D378800F6466F /* IJKMediaFramework */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = IJKMediaFramework; path = IJKMediaFramework.framework/IJKMediaFramework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACE697A237D29CA00F6466F /* libz.tbd in Frameworks */,
+				2ACE6978237D29C400F6466F /* libbz2.tbd in Frameworks */,
+				2ACE694C237D1E4B00F6466F /* AudioToolbox.framework in Frameworks */,
+				2ACE694E237D1E5100F6466F /* AVFoundation.framework in Frameworks */,
+				2ACE6976237D299D00F6466F /* CoreGraphics.framework in Frameworks */,
+				2ACE6974237D299600F6466F /* CoreMedia.framework in Frameworks */,
+				2ACE6972237D298E00F6466F /* CoreVideo.framework in Frameworks */,
+				2ACE6970237D298700F6466F /* MediaPlayer.framework in Frameworks */,
+				2ACE696E237D298000F6466F /* MobileCoreServices.framework in Frameworks */,
+				2ACE696C237D297A00F6466F /* OpenGLES.framework in Frameworks */,
+				2ACE696A237D297200F6466F /* QuartzCore.framework in Frameworks */,
+				2ACE6968237D296200F6466F /* UIKit.framework in Frameworks */,
+				2ACE6966237D295600F6466F /* VideoToolbox.framework in Frameworks */,
+				2ACE698A237D377800F6466F /* IJKMediaFramework.framework in Frameworks */,
+				2ACE698C237D378800F6466F /* IJKMediaFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,12 +95,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2ACE694A237D1E4B00F6466F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE6979237D29CA00F6466F /* libz.tbd */,
+				2ACE6977237D29C400F6466F /* libbz2.tbd */,
+				2ACE6975237D299D00F6466F /* CoreGraphics.framework */,
+				2ACE6973237D299500F6466F /* CoreMedia.framework */,
+				2ACE6971237D298E00F6466F /* CoreVideo.framework */,
+				2ACE696F237D298700F6466F /* MediaPlayer.framework */,
+				2ACE696D237D298000F6466F /* MobileCoreServices.framework */,
+				2ACE696B237D297A00F6466F /* OpenGLES.framework */,
+				2ACE6969237D297200F6466F /* QuartzCore.framework */,
+				2ACE6967237D296200F6466F /* UIKit.framework */,
+				2ACE6965237D295600F6466F /* VideoToolbox.framework */,
+				2ACE694D237D1E5100F6466F /* AVFoundation.framework */,
+				2ACE694B237D1E4B00F6466F /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNEasyIjkplayer.h */,
-				B3E7B5891CC2AC0600A0062D /* RNEasyIjkplayer.m */,
+				2ACE698B237D378800F6466F /* IJKMediaFramework */,
+				2ACE6989237D377800F6466F /* IJKMediaFramework.framework */,
+				2A1490A02378C6AB00B61333 /* RNEasyIjkplayerViewManager.h */,
+				2A1490A12378C6AB00B61333 /* RNEasyIjkplayerViewManager.m */,
+				2A14909D2378C58000B61333 /* RNEasyIjkplayerView.h */,
+				2A14909E2378C58000B61333 /* RNEasyIjkplayerView.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				2ACE694A237D1E4B00F6466F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +168,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -112,7 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNEasyIjkplayer.m in Sources */,
+				2A1490A22378C6AB00B61333 /* RNEasyIjkplayerViewManager.m in Sources */,
+				2A14909F2378C58000B61333 /* RNEasyIjkplayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,13 +278,21 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../../react-native/React";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKMediaFramework.framework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNEasyIjkplayer;
 				SKIP_INSTALL = YES;
@@ -219,13 +302,21 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../../react-native/React";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKMediaFramework.framework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNEasyIjkplayer;
 				SKIP_INSTALL = YES;

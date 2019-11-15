@@ -98,11 +98,11 @@ class IJKPlayerView extends Component {
      * @param callback
      */
     getDuration = (callback) => {
-        NativeModules.RNEasyIjkplayer.getDuration(findNodeHandle(this.ref), callback)
+        NativeModules.RNEasyIjkplayerView.getDuration(findNodeHandle(this.ref), callback)
     }
 
     getSize = (callback) => {
-        NativeModules.RNEasyIjkplayer.getSize(findNodeHandle(this.ref), callback)
+        NativeModules.RNEasyIjkplayerView.getSize(findNodeHandle(this.ref), callback)
     }
 
     _onProgressUpdate = ({ nativeEvent: { progress } }) => {
