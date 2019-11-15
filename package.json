@@ -1,4 +1,3 @@
-
 {
   "name": "react-native-easy-ijkplayer",
   "version": "1.0.0",
@@ -13,11 +12,23 @@
     "Android",
     "ios",
     "rtmp",
-    "rtsp"
+    "rtsp",
+    "stream player"
   ],
-  "author": "",
-  "license": "",
+  "author": {
+    "name": "Jason",
+    "email": "412300204@qq.com"
+  },
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itgou/react-native-easy-ijkplayer"
+  },
   "peerDependencies": {
+    "react": "^16.2.0",
     "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "prop-types": "15.6.0"
   }
 }
